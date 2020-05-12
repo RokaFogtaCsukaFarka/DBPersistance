@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b32b73a-7dd3-418e-af64-0849f71d16b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFYAhEoP6cYzNDV0WKmgvP5zRg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/oracle/study/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/oracle" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oracle.studies.Main" />
+      <module name="OracleAssignment01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my-app [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/src/main/java/com/oracle/study" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Maven.my-app [clean,install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b32b73a-7dd3-418e-af64-0849f71d16b7" name="Default Changelist" comment="" />
+      <created>1586332666162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586332666162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="58" width="847" height="677" key="#Project_Structure" timestamp="1586336590357">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1586336590357" />
+    <state x="524" y="84" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1586357561453">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="84" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1586357561453" />
+    <state x="557" y="289" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586348775402">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="557" y="289" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1586348775402" />
+    <state x="294" y="55" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1586335998574">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="294" y="55" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/67.27.1299.741@67.27.1299.741" timestamp="1586335998574" />
+    <state x="404" y="136" width="615" height="520" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586346808679">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="404" y="136" width="615" height="520" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/67.27.1299.741@67.27.1299.741" timestamp="1586346808679" />
+    <state x="67" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586356681864">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356681864" />
+    <state width="927" height="516" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1586356225974">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="927" height="516" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356225974" />
+    <state x="248" y="138" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1586356225971">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="248" y="138" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356225971" />
+    <state x="499" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586858625464">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586858625464" />
+    <state width="1253" height="153" key="GridCell.Tab.0.bottom" timestamp="1586358628495">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="153" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
+    <state width="1253" height="153" key="GridCell.Tab.0.center" timestamp="1586358628495">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="153" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
+    <state width="1253" height="153" key="GridCell.Tab.0.left" timestamp="1586358628494">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="153" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586358628494" />
+    <state width="1253" height="153" key="GridCell.Tab.0.right" timestamp="1586358628495">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="153" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
+    <state x="249" y="55" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586348796673">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="249" y="55" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586348796673" />
+    <state x="167" y="125" width="1099" height="543" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1586356602865">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="125" width="1099" height="543" key="com.intellij.history.integration.ui.views.RecentChangeDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356602865" />
+    <state x="0" y="27" width="710" height="741" key="find.popup" timestamp="1586457687579">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="0" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1586457687579" />
+    <state x="380" y="176" width="672" height="677" key="run.anything.popup" timestamp="1586335788456">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="176" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1586335788456" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+com/oracle/studies/Email.class
+com/oracle/studies/IUserRepository.class
+com/oracle/studies/UserRepository.class
+com/oracle/studies/User.class
+com/oracle/studies/IEmailRepository.class
+com/oracle/studies/EmailRepository.class
+com/oracle/studies/Main.class
+com/oracle/studies/ApplicationConfig.class
