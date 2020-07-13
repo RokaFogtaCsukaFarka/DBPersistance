@@ -1,26 +1,43 @@
 package com.oracle.studies;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Query;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
+@Component
 public class UserRepository implements IUserRepository {
 
     @Autowired
     IUserRepository repo;
+
     @Autowired
     EntityManagerFactory emf;
 
+    public IUserRepository getRepo() {
+        return repo;
+    }
+
+    public void setRepo(IUserRepository repo) {
+        this.repo = repo;
+    }
+
+    public EntityManagerFactory getEmf() {
+        return emf;
+    }
+
+    public void setEmf(EntityManagerFactory emf) {
+        this.emf = emf;
+    }
+
     public User findEmailByName(String firstname, String lastname) {
-        Iterator<User> emailIterator = repo.findAll().iterator();
+        Iterator<User> emailIterator = getRepo().findAll().iterator();
         while(emailIterator.hasNext()) {
             User item = emailIterator.next();
             if (item.getFirstname().equals(firstname) &&
@@ -33,13 +50,13 @@ public class UserRepository implements IUserRepository {
 
     @Transactional
     public <S extends User> S save(S s) {
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = getEmf().createEntityManager();
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         em.persist(s);
         tx.commit();
 
-        emf.close();
+        getEmf().close();
 
         return s;
     }
@@ -54,7 +71,7 @@ public class UserRepository implements IUserRepository {
     }
 
     public Optional<User> findById(Long aLong) {
-        Iterator<User> userIterator = repo.findAll().iterator();
+        Iterator<User> userIterator = getRepo().findAll().iterator();
         while(userIterator.hasNext()) {
             User item = userIterator.next();
             if (item.getId().equals(aLong)) {
@@ -69,18 +86,18 @@ public class UserRepository implements IUserRepository {
     }
 
     public Iterable<User> findAll() {
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = getEmf().createEntityManager();
 
         Query q = em.createQuery("SELECT * FROM users");
         List<User> list = q.getResultList();
 
-        emf.close();
+        getEmf().close();
 
         return list;
     }
 
     public Iterable<User> findAllById(Iterable<Long> iterable) {
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = getEmf().createEntityManager();
 
         List<User> resultList = new ArrayList();
         Iterator<Long> iterator = iterable.iterator();
@@ -90,7 +107,7 @@ public class UserRepository implements IUserRepository {
             Query q = em.createQuery("SELECT * FROM users WHERE id="+item);
             resultList.add((User)q.getSingleResult());
         }
-        emf.close();
+        getEmf().close();
 
         return resultList;
     }
@@ -106,20 +123,20 @@ public class UserRepository implements IUserRepository {
 
     @Transactional
     public void deleteById(Long aLong) {
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = getEmf().createEntityManager();
         Query q = em.createQuery("DELETE FROM users WHERE id="+aLong);
         q.executeUpdate();
-        emf.close();
+        getEmf().close();
     }
 
     @Transactional
     public void delete(User user) {
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = getEmf().createEntityManager();
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         em.remove(user);
         tx.commit();
-        emf.close();
+        getEmf().close();
     }
 
     @Transactional

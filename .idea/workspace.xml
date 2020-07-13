@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b32b73a-7dd3-418e-af64-0849f71d16b7" name="Default Changelist" comment="" />
+    <list default="true" id="3b32b73a-7dd3-418e-af64-0849f71d16b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_2_0_2_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/oracle/studies/TestApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/oracle/studies/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OracleAssignment01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OracleAssignment01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oracle/studies/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oracle/studies/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oracle/studies/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oracle/studies/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oracle/studies/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oracle/studies/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oracle/studies/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oracle/studies/UserRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +31,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BH &lt;balintharmath@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aFYAhEoP6cYzNDV0WKmgvP5zRg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,12 +60,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.oracle.studies" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/oracle/study/src/main/java" />
@@ -48,10 +87,26 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest.saveAll">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oracle.studies.Main" />
       <module name="OracleAssignment01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.saveAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OracleAssignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oracle.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oracle.studies" />
+      <option name="MAIN_CLASS_NAME" value="com.oracle.studies.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="saveAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest.saveAll" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Maven.my-app [clean,install]" />
       </list>
@@ -107,10 +163,11 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1586336590357" />
-    <state x="524" y="84" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1586357561453">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="527" y="84" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1594637266198">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="524" y="84" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1586357561453" />
+    <state x="527" y="84" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1594637266198" />
     <state x="557" y="289" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586348775402">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -135,34 +192,63 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="248" y="138" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356225971" />
+    <state x="206" y="27" width="1016" height="741" key="CommitChangelistDialog2" timestamp="1594639045741">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="206" y="27" width="1016" height="741" key="CommitChangelistDialog2/72.27.1294.741@72.27.1294.741" timestamp="1594639045741" />
     <state x="499" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586858625464">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586858625464" />
-    <state width="1253" height="153" key="GridCell.Tab.0.bottom" timestamp="1586358628495">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1248" height="205" key="GridCell.Tab.0.bottom" timestamp="1594638960503">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1253" height="153" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
-    <state width="1253" height="153" key="GridCell.Tab.0.center" timestamp="1586358628495">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1248" height="205" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1594638960503" />
+    <state width="1248" height="205" key="GridCell.Tab.0.center" timestamp="1594638960501">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1253" height="153" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
-    <state width="1253" height="153" key="GridCell.Tab.0.left" timestamp="1586358628494">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1248" height="205" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1594638960501" />
+    <state width="1248" height="205" key="GridCell.Tab.0.left" timestamp="1594638960500">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1253" height="153" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586358628494" />
-    <state width="1253" height="153" key="GridCell.Tab.0.right" timestamp="1586358628495">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1248" height="205" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1594638960500" />
+    <state width="1248" height="205" key="GridCell.Tab.0.right" timestamp="1594638960502">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1253" height="153" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586358628495" />
-    <state x="249" y="55" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586348796673">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1248" height="205" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1594638960502" />
+    <state width="1248" height="205" key="GridCell.Tab.1.bottom" timestamp="1594638960508">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="205" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1594638960508" />
+    <state width="1248" height="205" key="GridCell.Tab.1.center" timestamp="1594638960507">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="205" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1594638960507" />
+    <state width="1248" height="205" key="GridCell.Tab.1.left" timestamp="1594638960504">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="205" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1594638960504" />
+    <state width="1248" height="205" key="GridCell.Tab.1.right" timestamp="1594638960507">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="205" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1594638960507" />
+    <state x="253" y="55" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1594636088383">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="249" y="55" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1586348796673" />
+    <state x="253" y="55" key="Maven.ArtifactSearchDialog/72.27.1294.741@72.27.1294.741" timestamp="1594636088383" />
     <state x="167" y="125" width="1099" height="543" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1586356602865">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="167" y="125" width="1099" height="543" key="com.intellij.history.integration.ui.views.RecentChangeDialog/67.27.1299.741@67.27.1299.741" timestamp="1586356602865" />
+    <state x="486" y="111" width="456" height="579" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594635824447">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="486" y="111" width="456" height="579" key="com.intellij.testIntegration.createTest.CreateTestDialog/72.27.1294.741@72.27.1294.741" timestamp="1594635824447" />
     <state x="0" y="27" width="710" height="741" key="find.popup" timestamp="1586457687579">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -171,5 +257,21 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="176" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1586335788456" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/com/oracle/studies/UserRepositoryTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/com/oracle/studies/UserRepositoryTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

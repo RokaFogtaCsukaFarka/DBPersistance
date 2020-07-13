@@ -23,7 +23,6 @@ class ApplicationConfig {
         return Persistence.createEntityManagerFactory("email");
     }
 
-
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource ds = new DriverManagerDataSource();
